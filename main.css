@@ -1,0 +1,153 @@
+*{
+    margin: 10px;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Metal Mania';
+    font-size: 16px;
+    background-color: rgb(28, 15, 73);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+h4{
+    font-size:small;
+    margin: 0px;
+}
+h5{
+    font-size: xx-small;
+    color: white;
+}
+p{
+    font-family:'Grenze Gotisch';
+    font-size: medium;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(176, 166, 239);
+    font-size: xx-large;
+    font-family: 'Metal Mania';
+    padding: 0%;
+    margin: 0%;
+}
+
+/* end of reset */
+
+header{
+    background-color: rgb(28, 15, 73);
+    font-size: large;
+    display: flex;
+    justify-content: right;
+    padding: 90px,0px,90px,0px;
+    height: 50px;
+}
+
+footer{
+    margin: 320px;
+    right:100px;
+   display:flex;
+   justify-content: right;
+}
+
+.wrapper{
+    background-image: url(images/gunshot-01.png);
+    background-size: 90%;
+    background-position-x: 400px;
+    background-position-y: 140px;
+    background-repeat: no-repeat;
+    background-color: rgb(28, 15, 73);
+}
+.hero{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    object-fit: contain;  
+}
+.buttons{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;   
+}
+
+.card{
+    max-width: 600px;
+    margin: 10px;
+}
+.illu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.work{
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    object-position: center;
+}
+.click{
+    text-align: center;
+    object-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+.contact{
+    position: relative;
+    width:600px;
+}
+.return{
+    position: absolute;
+    align-content: center;
+}
+.send{
+    width: 550px;
+    background-color: rgb(133,135,194);
+    margin: 0px auto 20px auto;
+    padding: 12px 0px;
+    text-align: center;
+    border-radius: 12px;
+    border:1px solid red;
+
+}
+.content{
+    max-width: 500px;
+}
+.wrap{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+}
+/* border:1px solid red; */
